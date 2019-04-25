@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Fira Code', 
+               'Hack',
+               'Dank Mono',
+               'Menlo', 
+               'Monaco',
+               'Inconsolata',
+               'Overpass Mono',
+               'Ubuntu Mono',
+               monospace;
+
+  background: white;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+}
+
+.Button {
+    background: rgba(20, 20, 20, 0.05);
+    color: black;
+    font-size: inherit;
+    font-family: inherit;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 0.1em 0.5em;
+    cursor: pointer;
+
+    :hover,
+    :focus {
+      color: white;
+      background: black;
+    }
+    :active {
+      transform: scale(1.1);
+    }
+}
