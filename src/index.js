@@ -12,7 +12,7 @@ import { Canvas, useRender } from 'react-three-fiber';
 import './styles.scss';
 
 function randomColor() {
-  const colors = ['#89bd9e', '#f0c987', '#db4c40'];
+  const colors = ['#D62839', '#959897', '#E2E2E2'];
   return colors[Math.floor(Math.random() * colors.length)];
 }
 
